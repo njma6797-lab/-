@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>النجم لصناعة التطبيقات</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>النجم لصناعة التطبيقات</h1>
+
+  <label>HTML للتطبيق:</label>
+  <textarea id="htmlCode" placeholder="<h1>مرحبا بالعالم</h1>"></textarea>
+
+  <label>CSS للتطبيق:</label>
+  <textarea id="cssCode" placeholder="body { background:red; }"></textarea>
+
+  <label>JS للتطبيق:</label>
+  <textarea id="jsCode" placeholder="alert('Hello World');"></textarea>
+
+  <label>أيقونة التطبيق (اختر صورة من جهازك):</label>
+  <input type="file" id="appIconFile" accept="image/*">
+
+  <label>اسم التطبيق:</label>
+  <input type="text" id="appName" placeholder="اسم التطبيق">
+
+  <label>كود RR.LL (5 أرقام):</label>
+  <input type="text" id="rrllCode" placeholder="أدخل 5 أرقام">
+
+  <button id="installBtn">تثبيت التطبيق</button>
+
+  <div id="previewContainer">
+    <iframe id="previewFrame"></iframe>
+    <div id="appFooter">
+      <span id="madeBy">تم الصنع من موقع النجم</span>
+      <a id="whatsappLink" href="https://wa.me/201206561893" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+        01206561893
+      </a>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
